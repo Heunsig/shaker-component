@@ -10,7 +10,7 @@ const isShaking = ref(false);
   <main>
     <section>
       <h1>Shake Component Example</h1>
-      <p>We can shake any element with the Shake component.</p>
+      <p>We can shake any element with the Shaker component.</p>
 
       <button 
         type="button"
