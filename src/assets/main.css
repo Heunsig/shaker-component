@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+
+main {
+  padding: 20px;
+  margin: 0 auto;
+  width: clamp(20rem, 90vw, 30rem);
+}
+
+h1 {
+  margin: 0rem;
+}
+
+h1 + p {
+  margin-top: 0.25rem;
+}
+
+
+section:first-of-type {
+  margin-bottom: 2rem;
+}
+
+section:not(:first-of-type) {
+  margin-top: 1.75rem;
+}
+
+section > h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
